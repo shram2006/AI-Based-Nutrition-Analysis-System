@@ -5,7 +5,7 @@ import pandas as pd
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="Know Ur Body – Smart Nutrition Check",
+    page_title="AI-Based Nutrition Analysis System – Smart Nutrition Check",
     page_icon="🥗",
     layout="wide"
 )
@@ -44,7 +44,7 @@ FOOD_DB = load_food_db()
 FOODS = sorted(FOOD_DB["name"].tolist())
 
 # ---------------- TITLE ----------------
-st.title("🥗 Know Ur Body – Smart Nutrition Check")
+st.title("🥗 AI-Based Nutrition Analysis System – Smart Nutrition Check")
 st.caption("AI-powered nutrition analysis with BMI-based health insights")
 
 # ---------------- USER PROFILE ----------------
